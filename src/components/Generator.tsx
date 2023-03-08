@@ -237,7 +237,7 @@ export default function () {
         <MessageItem role="assistant" message={currentAssistantMessage} />
       )}
       <div
-        class="pb-2em bottom-0 z-100 op-0"
+        class="pb-2em bottom-0 op-0"
         style={
           containerWidth() === "init"
             ? {}
