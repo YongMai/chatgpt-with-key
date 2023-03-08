@@ -238,16 +238,7 @@ export default function () {
       )}
       <div
         class="pb-2em bottom-0 op-0"
-        style={
-          containerWidth() === "init"
-            ? {}
-            : {
-                transition: "opacity 0.3s ease-in-out",
-                width: containerWidth(),
-                opacity: 100,
-                "background-color": "var(--bg)"
-              }
-        }
+        
       >
         <Show when={!compatiblePrompt().length && height() === "48px"}>
           <Setting
