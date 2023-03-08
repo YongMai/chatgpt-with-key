@@ -8,5 +8,5 @@ export const defaultSetting = {
 
 export const defaultMessage = `
 - 设置里面填入自己的Openai API key 才可使用；
--定义角色也在设置里面；
+- 定义角色也在设置里面；
 - **Shift+Enter** 换行。开头输入 **/** 或者 **空格** 搜索 Prompt 预设。点击输入框滚动到底部。`
