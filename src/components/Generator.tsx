@@ -284,7 +284,6 @@ export default function () {
               placeholder="与 ta 对话吧"
               autocomplete="off"
               value={inputContent()}
-              autofocus
               onClick={scrollToBottom}
               // onBlur={() => {
               //   setCompatiblePrompt([])
