@@ -1,6 +1,5 @@
 import { defineConfig } from "astro/config"
 import vercel from "@astrojs/vercel/edge"
-import netlify from '@astrojs/netlify/functions';
 import unocss from "unocss/astro"
 import {
   presetUno,
@@ -24,5 +23,5 @@ export default defineConfig({
     solidJs()
   ],
   output: "server",
-  adapter: netlify()
+  adapter: vercel()
 })
